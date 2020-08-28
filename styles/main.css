@@ -1,0 +1,72 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Plumb";
+  src: url("../fonts/Plumb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin-top: 27px; }
+
+.bg-red {
+  background: #dc151d; }
+
+.container-1 {
+  height: 41px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.navbar {
+  padding: 0; }
+
+.navbar-brand,
+.nav-link-left {
+  font-family: "Plumb", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff !important;
+  margin: 0 !important;
+  font-weight: normal !important;
+  text-transform: none !important; }
+
+.nav-link-left {
+  font-size: 13px !important;
+  line-height: 15px !important; }
+
+.navbar-brand-left {
+  padding-left: 35px; }
+
+.navbar-brand-img {
+  padding-bottom: 4px;
+  padding-right: 4px; }
+
+.nav-link {
+  font-family: "Plumb", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000; }
+
+.container-2 {
+  height: 89px; }
+
+.nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.socials {
+  padding: 0 3px !important; }
+
+/*# sourceMappingURL=main.css.map */
