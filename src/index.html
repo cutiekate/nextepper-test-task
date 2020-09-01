@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/main.css">
   </head>
   <body>
-    <nav class="navbar expand-md bg-red sticky-top">
+    <nav class="navbar expand-md bg-red">
       <div class="container container-1">
         <nav class="nav">
           <a class="navbar-brand" href="#">
@@ -53,7 +53,7 @@
       <div class="container container-2">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link nav-link-logo" href="#">
               <img src="./images/logo.svg" alt="logo-img">
             </a>
           </li>
@@ -105,30 +105,42 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
+    <div class="container container-3">
       <div class="row">
-        <div class="col">
+        <div class="col-6">
           <div class="container">
             <div class="row">
-              <span>Головна - Новини - Назва події або акції може бути у два рядки </span>
+              <p class="breadcrumbs">
+                <span class="breadcrumbs-primary">Головна</span>
+                <span class="breadcrumbs-secondary"> - Новини - </span>
+                <span>Назва події або акції може бути у два рядки</span>
+              </p>
             </div>
             <div class="row">
-              <h1>Назва події може бути у два рядки</h1>
+              <h1 class="title">Назва події або акції може бути у два рядки</h1>
             </div>
             <div class="row">
-              <span>01.09.2020 </span>
+              <div class="col-md-8">
+                <span class="action">Акція діє з 01.09.2020 до 02.09.202</span>
+              </div>
+              <div class="col-6 col-md-4">
+                <span class="date">01.09.2020 </span>
+              </div>
             </div>
             <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien.</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien.</p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <img src="images/main-img.jpg" alt="photo">
+        <div class="col-6">
+          <img
+          class="main-img img-fluid"
+          src="images/main-img.jpg"
+          alt="photo">
         </div>
       </div>
       <div class="row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien.</p>
+        <p class="text text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra nec orci sed accumsan. Aliquam commodo molestie ultricies. Aenean nec commodo nibh, vel porta augue. Donec cursus turpis nec accumsan iaculis. Fusce ex elit, pulvinar eu elit id, ultricies laoreet magna. Morbi a molestie odio. Quisque nec placerat sapien.</p>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

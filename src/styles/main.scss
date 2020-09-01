@@ -4,6 +4,7 @@
 
 body {
   margin-top: 27px;
+  max-width: 1440px;
 }
 
 .bg-red {
@@ -13,6 +14,8 @@ body {
 .container-1 {
   height: 41px;
   align-items: center;
+  padding: 0;
+
 }
 
 .navbar {
@@ -33,6 +36,8 @@ body {
 .nav-link-left {
   font-size: 13px !important;
   line-height: 15px !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
 }
 
 .navbar-brand-left {
@@ -51,10 +56,14 @@ body {
   line-height: 18px;
   text-transform: uppercase;
   color: #000;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .container-2 {
   height: 89px;
+  padding-left: 0;
+  background: #fff;
 }
 
 .nav {
@@ -64,3 +73,141 @@ body {
 .socials {
   padding: 0 3px !important;
 }
+
+.breadcrumbs {
+  margin-top: 26px;
+  font-family: "Plumb", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #a8a8a8;
+}
+
+.breadcrumbs-primary {
+  font-weight: bold;
+  text-decoration-line: underline;
+  color: #000;
+}
+
+.breadcrumbs-secondary {
+  font-weight: normal;
+  color: #000;
+}
+
+.title {
+  margin-top: 29px;
+  font-family: "Plumb", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000;
+}
+
+.action,
+.date {
+  margin-top: 40px;
+  font-family: "Plumb", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.action {
+  color: #ed1c24;
+}
+
+.date {
+  color: #a8a8a8;
+}
+
+.text {
+  margin-top: 37px;
+  font-family: "Plumb", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  color: #000;
+}
+
+.text2 {
+  padding: 0;
+}
+
+.col-md-8,
+.col-6 {
+  padding-left: 0;
+}
+
+.nav-link-logo {
+  padding-left: 0;
+}
+
+.main-img {
+  margin-top: 50px;
+  width: 643px;
+  height: 433px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .bg-red {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 11px;
+  }
+
+  .justify-content-end {
+    margin-left: 470px;
+  }
+
+  .nav-link-logo {
+    padding-right: 32px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-top: 0;
+    line-height: 40px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link-logo {
+    padding-right: 0;
+  }
+
+  .nav-link {
+    font-size: 9px;
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+  }
+
+  .justify-content-end {
+    margin-left: 340px;
+  }
+}
+
+@media screen and (max-width: 582px) {
+
+  .nav {
+    padding-left: 5px;
+  }
+
+  .container-3 {
+    padding-right: 39px;
+    padding-left: 29px;
+  }
+
+  .justify-content-end {
+    margin-left: 320px;
+  }
+}
+
+// @media screen and (max-width: 550px) {
+
+// }
